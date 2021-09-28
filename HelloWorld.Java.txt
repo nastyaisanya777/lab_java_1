@@ -1,1 +1,12 @@
-]]]]]
+ import java.util.Scanner;
+
+public class HelloWorld{
+
+     public static void main(String []args){
+         int a = 5;
+         String name = "World";
+         Scanner input = new Scanner(System.in);
+         String d = input.nextLine();
+        System.out.println(d);
+     }
+}
